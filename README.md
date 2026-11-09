@@ -59,22 +59,22 @@ is the scorer the network uses. A PyTorch re-implementation gives different logi
 |---|---|---|
 | Our evaluation-pool rows (112 attested pairs, subjects unseen in training) | **97.3%** | see below |
 | Real network answers: genuine screening vs static-metadata miner (144 pairs, 6 static miners × 2 genuine miners × 12 questions) | **91.0%** | — |
-| …when the genuine answer is zk-sanctions' | 100% | — |
+| …when the genuine answer is another miner's | 100% | — |
 | …when the genuine answer is Counterproof's | 81.9% | — |
 
 Absolute scores under GENERIC through the same runtime, on the same 12 questions:
 
 | Answer source | GENERIC score |
 |---|---|
-| static file (san-opensanc-stats) | 0.9992 |
+| static file A | 0.9992 |
 | genuine screening (Counterproof) | 0.9967 |
-| static file (san-os-au) | 0.9690 |
-| genuine screening (zk-sanctions) | 0.9650 |
+| static file B | 0.9690 |
+| genuine screening (another miner) | 0.9650 |
 
 The 0.9992 for a static file that ignores the question matches its live leaderboard score (0.9993 in epoch 2048).
 
 **Conflict of interest.** The author runs a sanctions miner (`counterproof-sanctions-screener`). The adapter does not
-favour that miner's format: on the same questions it ranks zk-sanctions' genuine answers above the static files more
+favour that miner's format: on the same questions it ranks another miner's genuine answers above the static files more
 often than ours.
 
 ## Known limits
