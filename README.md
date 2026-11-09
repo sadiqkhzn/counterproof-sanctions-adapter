@@ -73,7 +73,7 @@ A text model can't know who is on a sanctions list. Where the only difference be
 claim is true, it does little better than chance:
 
 - **Invented exact listing** (the worse answer says the subject is listed under its own exact name): 37% on a test set
-  in other writing styles.
+  in other writing styles. This is the only number here measured with PyTorch rather than the validators' runtime.
 - **Always "match"** (an answer that echoes the name back as listed): 25% on 12 real questions, with the answer citing no
   actual list entry.
 
