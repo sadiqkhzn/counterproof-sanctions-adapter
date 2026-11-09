@@ -5,6 +5,16 @@ It scores how well a miner's answer screens the name it was asked about. Its mai
 an answer that has nothing to do with the question. Under the GENERIC fallback adapter, a miner serving a static
 dataset-metadata file scores about as high as a miner that actually screens the name.
 
+## Status
+
+**Canonical for `SANCTIONS_SCREENING_MATCH` since 9 Nov 2026, 18:16 UTC.** Registered as Telegraph WASM registration 279
+(tx `0x8314221dfff152714fef2a648827fc377428dc7ffc1f9435f854baaa36dfc266`, Ethereum Sepolia). It was promoted as the
+first Canonical for the family at **72.41% on 29 hidden evaluation-pool pairs** (floor 70%, corpus `d209cb3b421a`, seed
+epoch 2051). It also passed the validators' remote check on 15 public pairs and their bit-exact confirmation.
+
+The hidden pairs were written by many contributors. 72% on them against 97% on our own pool rows matches the limit
+described below: many hidden pairs turn on whether a listing claim is true, which a text model can't check.
+
 ## Package
 
 | | |
