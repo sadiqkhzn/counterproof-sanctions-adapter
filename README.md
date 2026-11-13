@@ -5,7 +5,7 @@ screens the name it was asked about.
 
 ## Status
 
-**Canonical for `SANCTIONS_SCREENING_MATCH` since 9 Nov 2026, 18:16 UTC.**
+**Canonical for `SANCTIONS_SCREENING_MATCH` from 9 Nov 2026, 18:16 UTC, to 12 Nov 2026, 23:56 UTC** (the family's first Canonical; replaced by another adapter on 12 Nov).
 - Telegraph WASM registration 279, tx `0x8314221dfff152714fef2a648827fc377428dc7ffc1f9435f854baaa36dfc266` (Ethereum Sepolia).
 - Promoted as the first Canonical for the family at **72.41% on 29 hidden evaluation-pool pairs** (floor 70%).
 
